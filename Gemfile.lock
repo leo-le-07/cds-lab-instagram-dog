@@ -175,7 +175,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.0)
-  rails-assets-tether
+  rails-assets-tether (~> 1.1, >= 1.1.1)
   rails_12factor
   sass-rails (~> 5.0)
   spring
