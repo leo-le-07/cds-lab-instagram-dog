@@ -8,7 +8,15 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <nav class="navbar navbar-dark bg-faded" style="border-radius: 0; background-color: #B3E5FC">
+    <%= link_to "CoderPhoto", root_path, class: 'navbar-brand' %>
+    <ul class="nav navbar-nav">
+      <li class="nav-item active" style="margin-top: 5px;">
+        Timeline
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
     <%= yield %>
-  </body>
+  </div>
 </html>
